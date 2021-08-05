@@ -35,3 +35,35 @@ body{
     color: darkblue;
     font-size: 15px;
 }
+@media screen and (max-width:400px){
+    body{
+        padding-left:2px;
+        margin-top: 50px;
+        margin-left:50px;
+        background-image: url(img.png);
+    }
+    #log{
+        text-align: center;
+    }
+    #submit{
+        height:50px;
+        width:160px;
+        font-size: large;
+        margin-left:60px;
+    }
+    .login{
+        border: 3px solid darkblue;
+        width:300px;
+        height:500px;
+        padding-left: 10px;
+        font-size: large;
+    }
+    .input{
+        height: 30px;
+        font-size: large;
+        
+    }
+    ::placeholder{
+        font-size: 10px;
+    }
+}
