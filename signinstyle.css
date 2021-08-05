@@ -45,3 +45,49 @@ body{
     border-color:darkblue;
     color:rgb(2, 2, 87);
 }
+@media screen and (max-width:400px){
+    body{
+        font-size:large;
+        margin-top:100px;
+    }
+    .signin{
+        font-size:x-large;
+    }
+    .form{
+        border:3px solid rgb(2, 2, 87);
+        text-align: center;
+        margin-left:50px;
+        margin-right:50px;
+        background-image: url(img.png);
+    }
+    #inputname{
+        height:20px;
+        width:60px;
+        margin-left:100px;
+    }
+    #inputemail{
+        height:20px;
+        width:60px;
+        margin-left:100px;
+    }
+    #inputpass{
+        height:20px;
+        width:60px;
+        margin-left:68px;
+    }
+    #inputconfirm{
+        height:20px;
+        width:60px;
+        margin-left:52px;
+    }
+    #submit{
+        height:25px;
+        width:70px;
+        text-align: center;
+        font-size:large;
+        margin-bottom:20px;
+        background-color:rgb(10, 206, 255);
+        border-color:darkblue;
+        color:rgb(2, 2, 87);
+    }
+}
