@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    color:white;
+    margin:50px;
+}
+#content{
+    font-size:xx-large;
+}
+.text{
+    height: 300px;
+    width:300px;
+  border: 10px solid white;
+  display:flex;
+  float:right;
+  border-radius: 20%;
+ margin:25px;
+ font-size: xx-large;
+ color:white;
+ padding-top: 100px;
+ padding-left:70px;
+}
+#books{
+  background-image: url("books.png");
+}
+#kitchen{
+    background-image: url("kitchen.png");
+}
+#clothes{
+    background-image: url("clothes.png");
+}
+#eatables{
+    background-image: url("eatables.png");
+}

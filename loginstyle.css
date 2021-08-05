@@ -1,0 +1,37 @@
+body{
+    padding-left:5px;
+    margin-top: 100px;
+    margin-left:400px;
+    background-image: url(img.png);
+}
+#log{
+    text-align: center;
+}
+#submit{
+    height:50px;
+    width:160px;
+    font-size: x-large;
+    margin-left:265px;
+    background-color:rgb(66, 210, 247);
+    color:darkblue;
+}
+.login{
+    background-color: white;
+    border: 5px solid darkblue;
+    width:700px;
+    height:500px;
+    padding-left: 10px;
+    font-size: x-large;
+    color: darkblue;
+}
+.input{
+    height: 30px;
+    color: darkblue;
+    font-size: x-large;
+    border-color: darkblue ;
+    
+}
+::placeholder{
+    color: darkblue;
+    font-size: 15px;
+}

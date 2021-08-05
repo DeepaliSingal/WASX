@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(18, 179, 219);
+    color:rgb(2, 2, 87);
+    font-size:xx-large;
+}
+.signin{
+    text-align: center;
+    font-size: 60px;
+}
+.form{
+    border:5px solid rgb(2, 2, 87);
+    text-align: center;
+    margin-left:200px;
+    margin-right:200px;
+    background-image: url(img.png);
+    background-position-x: 100px;
+}
+#inputname{
+    height:30px;
+    width:300px;
+    margin-left:330px;
+}
+#inputemail{
+    height:30px;
+    width:300px;
+    margin-left:330px;
+}
+#inputpass{
+    height:30px;
+    width:300px;
+    margin-left:270px;
+}
+#inputconfirm{
+    height:30px;
+    width:300px;
+    margin-left:246px;
+}
+#submit{
+    height:40px;
+    width:150px;
+    text-align: center;
+    font-size:xx-large;
+    margin-bottom:50px;
+    background-color:rgb(10, 206, 255);
+    border-color:darkblue;
+    color:rgb(2, 2, 87);
+}
